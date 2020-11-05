@@ -203,7 +203,7 @@ if __name__ == '__main__':
     print('Test Loss = {:.4f}'.format(score[0]))
 
     # Saving the CNN model
-    cnn_model.save('model/model_1.h5')
+    cnn_model.save('model/model.h5')
 
     # Plotting accuracy and loss
     plot_acc_and_loss()

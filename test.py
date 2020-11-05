@@ -92,7 +92,7 @@ if __name__ == '__main__':
     Y = to_categorical(Y, 3)
 
     # Loading the saved model
-    model = load_model('model/model_1.h5')
+    model = load_model('model/model.h5')
 
     # Evaluating the model
     score = model.evaluate(X, Y, verbose=0, batch_size=10)
