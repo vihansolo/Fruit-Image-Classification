@@ -3,7 +3,9 @@
 
 To create a model:
 
-1. Run the train script using "python train.py"
-	1.1. Creates a model inside "model/"
+- Run the train script using "python train.py"
+    - Creates a model inside "model/"
 
-2. Run the test script using "python test.py"
+- Run the test script using "python test.py" to check the classification on the test images.
+
+The exisiting model accuracy is 66.67 %.
