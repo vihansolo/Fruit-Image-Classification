@@ -4,11 +4,11 @@
 ## Requirements and running the program 
 
 1. The required python libraries to run this project are:
-    - python-opencv
-    - numpy
-    - matplotlib
-    - scikit-learn
-    - tensorflow
+    - [opencv-python](https://pypi.org/project/opencv-python/)
+    - [numpy](https://pypi.org/project/numpy/)
+    - [matplotlib](https://pypi.org/project/matplotlib/)
+    - [scikit-learn](https://pypi.org/project/scikit-learn/)
+    - [tensorflow-gpu](https://pypi.org/project/tensorflow-gpu/) if feasible. Else, [tensorflow](https://pypi.org/project/tensorflow/)
 
 2. Tensorflow GPU has been used to run the following script with Nvidia GTX 1050ti graphics card and following recommended versions -
 
