@@ -1,4 +1,5 @@
-"""Image Classification Using Convolutional Neural Networks in Python (TensorFlow Keras)
+"""
+Image Classification Using Convolutional Neural Networks in Python (TensorFlow Keras)
 
 train.py: main driver program which creates the CNN model
 test.py: the python script to test the created CNN model on
