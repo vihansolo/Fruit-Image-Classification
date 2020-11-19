@@ -34,10 +34,12 @@ The following model structure has been used to classify the images with partial 
 | random_flip (RandomFlip) | (None, 100, 100, 3) | 0 |
 | random_contrast (RandomContrast) | (None, 100, 100, 3) | 0 |
 | conv2d (Conv2D) | (None, 100, 100, 50) | 3800 |
-| max_pooling2d (MaxPooling2D) | (None, 50, 50, 50) | 0 |
-| conv2d_1 (Conv2D) | (None, 50, 50, 100) | 405100 |
-| max_pooling2d_1 (MaxPooling2D) | (None, 25, 25, 100) | 0 |
-| dense (Dense) | (None, 25, 25, 256) | 25856 |
+| conv2d_1 (Conv2D) | (None, 100, 100, 75) | 93825|
+| max_pooling2d (MaxPooling2D) | (None, 50, 50, 75) | 0 |
+| conv2d_2 (Conv2D) | (None, 50, 50, 100) | 367600 |
+| conv2d_3 (Conv2D) | (None, 50, 50, 125) | 612625 |
+| max_pooling2d_1 (MaxPooling2D) | (None, 25, 25, 125) | 0 |
+| dense (Dense) | (None, 25, 25, 256) | 32256 |
 | dropout (Dropout) | (None, 25, 25, 256) | 0 |
 | flatten (Flatten) | (None, 160000) | 0 |
 | dense_1 (Dense) | (None, 128) | 20480128 |
@@ -45,4 +47,4 @@ The following model structure has been used to classify the images with partial 
 | activation (Activation) | (None, 3) | 0 |
 
 ### Accuracy
-The existing model accuracy is 66.67 %.
+The existing model accuracy is 73.33 %.
