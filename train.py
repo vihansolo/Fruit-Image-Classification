@@ -1,5 +1,4 @@
-"""
-Image Classification Using Convolutional Neural Networks in Python (TensorFlow Keras)
+"""Image Classification Using Convolutional Neural Networks in Python (TensorFlow Keras)
 
 train.py: main driver program which creates the CNN model
 test.py: the python script to test the created CNN model on
@@ -106,18 +105,16 @@ def func_cnn_model():
 
         # Further pre-processing
         layers.experimental.preprocessing.RandomZoom(0.2),
-        layers.experimental.preprocessing.RandomFlip('vertical'),
+        layers.experimental.preprocessing.RandomFlip('horizontal'),
         layers.experimental.preprocessing.RandomContrast(0.4),
 
         # Convolutional layer
         layers.Conv2D(50, 5, input_shape=input_shape, padding='same', activation='relu'),
-        layers.Conv2D(75, 5, padding='same', activation='relu'),
         # Pooling layer
         layers.MaxPool2D(),
 
         # Convolutional layer
-        layers.Conv2D(100, 7, padding='same', activation='relu'),
-        layers.Conv2D(125, 7, padding='same', activation='relu'),
+        layers.Conv2D(100, 9, padding='same', activation='relu'),
         # Pooling layer
         layers.MaxPool2D(),
 
